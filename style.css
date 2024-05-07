@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100%;
+}
+
+/* Header */
+
+.menu-button{
+    color: azure;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
+
+.navbar{
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    z-index: 999;
+    background-color: antiquewhite;
+    box-shadow: 0 0 14px rgba(red, green, blue, alpha);
+
+
+}
