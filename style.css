@@ -51,8 +51,40 @@ body{
     border-bottom: 4px solid  rgb(225, 119, 27);
 }
 
-
-
 .navbar .menu li a:hover{
     border-bottom: 4px solid  rgb(225, 119, 27);
+}
+
+/* Content */
+.content{
+    background-color: antiquewhite;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: grey;
+    height: 100vh;
+}
+
+.content h1{
+    font-size: 40px;
+}
+
+.content p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.content button{
+    margin-top: 30px;
+    padding: 15px 30px;
+    border: none;
+    background: red;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
 }
