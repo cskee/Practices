@@ -9,12 +9,11 @@ body{
 }
 
 /* Header */
-
 .menu-button{
-    color: azure;
-    font-size: 23px;
-    cursor: pointer;
-    display: none;
+    color:black;
+    font-size:23px;
+    cursor:pointer;
+    display:none;
 }
 
 .navbar{
@@ -24,8 +23,36 @@ body{
     align-items: center;
     position: sticky;
     z-index: 999;
-    background-color: antiquewhite;
+    background-color: rgb(255, 246, 246);
     box-shadow: 0 0 14px rgba(red, green, blue, alpha);
+}
+
+.navbar .logo h1{
+    color:rgb(59, 57, 57);
+    border-bottom: 4px solid rgb(225, 119, 27);
+}
+
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a{
+    display: block;
+    margin-left: 10px;
+    color: rgb(55, 141, 141);
+    border-bottom: 4px solid transparent;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar .menu li .active{
+    border-bottom: 4px solid  rgb(225, 119, 27);
+}
 
 
+
+.navbar .menu li a:hover{
+    border-bottom: 4px solid  rgb(225, 119, 27);
 }
