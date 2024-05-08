@@ -99,7 +99,11 @@ body{
 /* Product */
 .sec{
     padding: 10px 5%;
+}
 
+.products{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
 .products .card{
